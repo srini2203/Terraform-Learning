@@ -17,3 +17,8 @@ variable "instance_name"{
     type=string
     default="terraform-lab-03"
 }
+
+variable "cidr_block"{
+    type=string
+    default="10.0.0.0/16"
+}
